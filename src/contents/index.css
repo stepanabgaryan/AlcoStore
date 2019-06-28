@@ -1,0 +1,498 @@
+/* main.js style */
+html, body {
+  background: #e4e4e4 !important;
+}
+/* Header.js style */
+
+.HeaderContainerAppBar {
+  background: rgb(40, 40, 39) !important;
+}
+.MuiCardActions-root .MuiButtonBase-root{
+  color: white;
+  background-color: #ee5c8f;
+}
+.MuiCardActions-root .MuiButtonBase-root :hover{
+  background-color: #ff5ca0;
+}
+.MuiTypograthy-h5{
+  color: #ff5ca0;
+}
+.MuiIconButton-label{
+  color: white;
+}
+.SearchField {
+  position: relative;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.15);
+  margin-right: 16px;
+  margin-left: 0px;
+  width: 100%;
+}
+.SearchField:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+.SearchFieldIcon {
+  width: 40px;
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: white;
+}
+.SearchFieldInput {
+  color: inherit !important;
+}
+.SearchFieldInput input {
+  width: 100%;
+  padding: 8px 8px 8px 40px;
+  transition: width 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.NavMenuBars {
+  margin: 8px;
+}
+@media (min-width: 600px){
+  .SearchField {
+    width: auto;
+    margin-left: 24px;
+  }
+}
+@media (min-width: 960px){
+  .SearchFieldInput input {
+    width: 200px;
+  }
+}
+.LogoForAlcoStoreContainer {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+}
+.LogoForAlcoStoreContainer1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.ImageForAlcoStoreContainer {
+  height: 100%;
+}
+.SignInUpUserDiv a {
+  text-decoration: none;
+}
+.HeaderContainer {
+  flex-grow: 1;
+}
+.SignInUpUserLinks {
+  margin: 0 5px;
+}
+.HeaderMenuCategoriesList {
+  position: absolute;
+}
+.BasketBadgeDiv {
+  margin: 0 10px;
+  color: #ffffff;
+}
+.BasketBadge span {
+  transform: none !important;
+}
+
+/* category.js style */
+
+.CategoryItem {
+  margin: 10px 1.5%;
+  cursor: pointer;
+  text-align: center;
+  width: 22%;
+  display: inline-block;
+}
+.CategoryImageDiv {
+  min-width: 70px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.CategoryImage {
+  width: 80%;
+  height: 100%;
+}
+.CategoryName {
+  width: 100%;
+  margin: 0;
+}
+.HomeCatContDiv {
+  width: 90%;
+  margin: 10px 5%;
+  margin-bottom: 130px;
+}
+/* content.js style */
+
+.ContentItem {
+  margin: 10px 1.5%;
+  text-align: center;
+  width: 30%;
+  display: inline-block;
+  cursor: default;
+}
+.ContentImageDiv {
+  min-width: 70px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  height: 240px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.ContentImage {
+  width: auto;
+  height: 100%;
+}
+.ContentName {
+  width: 100%;
+  margin: 10px 0;
+}
+.ContentButtonDiv {
+  padding: 3px;
+}
+.ContentButtonDiv button {
+  cursor: pointer;
+}
+.ContentAddToCart {
+  color: #ff0000;
+  cursor: pointer;
+  width: 100%;
+  margin: 10px 0;
+}
+.ContentAddToCartSpan {
+  margin-right: 10px;
+}
+.ContentCountItem {
+  width: 50px;
+}
+.CategoryImageDiv{
+  background-color: #4f4f4d;
+}
+/* edit.js style */
+
+.DialogContent1 {
+  width: 140px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  height: 240px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  float: left;
+}
+.DialogContent2 {
+  width: calc(100% - 140px);
+  float: left;
+}
+.DialogImage {
+  width: auto;
+  height: 100%;
+}
+.DialogTitle {
+  text-align: center;
+}
+.DialogContent3 {
+  text-align: center;
+}
+.BasketRoot {
+  flex-grow: 1;
+}
+.BasketPaper {
+  padding: 15px;
+  margin-top: 20px;
+  position: relative;
+  margin-left: 25%;
+  max-width: 700px;
+}
+.BasketImage {
+  width: 128px;
+  height: 128px;
+}
+.BasketImg {
+  margin: auto;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+.EmptyBasket {
+  flex-grow: 1
+}
+.EmptyBasketText {
+  padding: 15px;
+  margin-top: 20px;
+  position: relative;
+  margin-left: 25%;
+  max-width: 700px;
+}
+.EmptyBasketGrid {
+  padding: 15px;
+  text-align: center;
+  color: #f1eaff;
+  font-weight: bold;
+}
+
+/* SignIn.js Style */
+
+.SignInCardDiv {
+  margin: auto;
+  display: flex;
+  outline: none;
+  border-radius: 4px;
+  justify-content: center;
+}
+.SignInCard {
+  min-width: 275px;
+  max-width: 50%;
+}
+.SignInUpPageMain {
+  display: grid;
+  position: relative;
+  height: -webkit-fill-available;
+}
+.SignInUpUserLinks .MuiButton-containedPrimary {
+  color: white;
+  background-color: #03b0c6;
+}
+.SignInUpUserDiv .MuiButtonBase-root :hover{
+  background-color: #ff5ca0;
+}
+.SignUpCard {
+  min-width: 50%;
+}
+.SignUpCardGrid {
+  text-align: center;
+}
+.SignUpCardGridDiv {
+  display: flex;
+  margin-left: -10px !important;
+  margin-right: -10px !important;
+  flex: 1;
+}
+.SignUpCardGridInput {
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+.SignUpCardGridCardAction {
+  padding: 16px !important;
+}
+.footer {
+  display: block;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+.main-wrap {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 130px;
+}
+.checkoutBtn {
+  margin-left:66%;
+}
+
+/* About Us Style */
+.AbousUsMainDiv, .AbousUsMainDiv * {
+  box-sizing: border-box
+}
+.AbousUsMainDiv {
+  height: auto;
+  position: relative;
+  padding: 15px;
+  float: left;
+  width: 100%;
+}
+.AbousUsMainDiv:after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  background-color: #03a9f4;
+  left: 50%;
+  top: 15px;
+  bottom: 15px;
+  margin-left: -2px;
+}
+.AboutUsContentDiv {
+  min-height: 100px;
+  position: relative;
+  box-shadow: 0px 40px 14px -35px #ccc, 0px -40px 14px -35px #ccc;
+  width: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.AboutUsContentDivLeft {
+  float: left;
+}
+.AboutUsContentDivRight {
+  float: right;
+}
+.AboutUsContentDivLeft:before,
+.AboutUsContentDivLeft:after {
+  position: absolute;
+  content: '';
+  color: #333;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  -webkit-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+  border-radius: 20px;
+  z-index: 4;
+  top: 50%;
+  right: 0;
+}
+.AboutUsContentDivRight:before,
+.AboutUsContentDivRight:after {
+  position: absolute;
+  content: '';
+  color: #333;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  z-index: 4;
+  top: 50%;
+  left: 0;
+}
+.AboutUsContentDiv:after {
+  width: 60px;
+  height: 60px;
+  z-index: 3;
+  border-radius: 30px;
+  background: #03a9f4;
+}
+.AboutUsContentDivIcon {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  color: #333;
+  z-index: 5;
+}
+.AboutUsContentDivRow {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.AboutUsContentDivRow:after, .AboutUsContentDivRow:before {
+  display: table;
+  content: " ";
+}
+.AboutUsContentDivRow:after {
+  clear: both;
+}
+.AboutUsContentDivLeft .AboutUsContentDivIcon {
+  right: 0;
+  -webkit-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+}
+.AboutUsContentDivRight .AboutUsContentDivIcon {
+  left: 0;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.AboutUsContentDivBody {
+  background-color: #fff;
+  min-height: 100px;
+  border-radius: 5px;
+  padding: 5px 15px;
+  width: 90%;
+  position: relative;
+  border: 1px solid #eee;
+}
+.AboutUsContentDivRight .AboutUsContentDivBody {
+  float: right;
+}
+.AboutUsContentDivLeft .AboutUsContentDivBody:before {
+  position: absolute;
+  content: '';
+  color: #333;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-top: 1px solid #eee;
+  border-right: 1px solid #eee;
+  -webkit-transform: rotate(45deg) translate(-50%, -50%);
+  transform: rotate(45deg) translate(-50%, -50%);
+  border-radius: 3px;
+  top: 50%;
+  right: -8px;
+}
+.AboutUsContentDivRight .AboutUsContentDivBody:before {
+  position: absolute;
+  content: '';
+  color: #333;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
+  -webkit-transform: rotate(45deg) translate(-50%, -50%);
+  transform: rotate(45deg) translate(-50%, -50%);
+  border-radius: 3px;
+  top: 50%;
+  left: -8px;
+}
+.AboutUsContentDivBodyImage {
+  display: block;
+  text-align: left;
+  width: 20%;
+  height: 100%;
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px dashed #eee;
+  float: left;
+}
+.AboutUsContentDivBodyImage img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+.AboutUsContentDivDesc {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 5px solid #eee;
+}
+.AboutUsContentDivDesc a {
+  text-decoration: none;
+}
+.AboutUsContentDivLinks {
+  text-align: right;
+  margin: 0 0 20px;
+}
+.AboutUsContentDivLinks span {
+  margin-right: 10px;
+}
+.AboutUsContentDivLinks .AboutUsContentDivDescIcons {
+  float: right;
+  font-size: 26px;
+  margin-right: 10px;
+}
+.AboutUsContentDivDescIcons1 {
+  color: #000000;
+}
+.AboutUsContentDivDescIcons2 {
+  color: #0077B5;
+}
